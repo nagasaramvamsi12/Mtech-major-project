@@ -145,3 +145,10 @@ cython_debug/
 
 # Other
 .DS_Store
+mobility_env/
+*.pdf
+*.pid
+
+# Ignore large trace and network files
+car_only/*.xml
+car_only/*.xml.gz
